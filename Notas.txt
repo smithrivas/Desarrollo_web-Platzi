@@ -1,0 +1,14 @@
+http://html5doctor.com/
+
+<ETIQUETAS>
+br: Salto de línea
+strong: negrita
+img: imagen
+article: contenido que se auto explique
+h1 - h6: Título, h1 es el mayor, h6 es el menor
+small: se aplica a los párrafos y convierte el texto más pequeño que el resto
+a: corresponde a un ancla o un enlace url interna o externa
+figure: le da un contexto semántico a las imágenes
+
+Abrir link en otra pestaña
+Atributo: target="_blank";
