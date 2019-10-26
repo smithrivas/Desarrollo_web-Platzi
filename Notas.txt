@@ -12,3 +12,37 @@ figure: le da un contexto semántico a las imágenes
 
 Abrir link en otra pestaña
 Atributo: target="_blank";
+
+Reglas de CSS: se conforman de…
+Selectores: como identificar un elemento en html (header, body, etc.)
+Declaraciones: lo que se hace con el selector (contenido dentro de las llaves “{ }”)
+Propiedades: lo que se hace con los elementos (background, Width, Heigth, Color, etc.)
+Valores: reciben variables de las propiedades para actuar de forma correcta (pink, 500, etc.)
+
+SELECTOR
+selector de etiqueta
+id = un solo elemento #
+class = varios elementos .
+
+display: flex; // Lo reciben también los hijos
+*Si no quiere que lo reciban los hijos entonces en la clase hija se declara
+flex-shrink: 0;
+*Para que no se acumulen y salgan de la pantalla se debe declarar en la clase padre
+flex-wrap: wrap;
+
+justify-content: 
+center: Alinea los elementos en el centro del navegador
+flex-start: Alinea los elementos al extremo izquierdo del navegador
+flex-end: Alinea los elementos al extremo derecho del navegador
+space-around: Le da el mismo espaciado a los elementos de los extremos y diferente a los del centro.
+space-between: Le da espaciado a los elementos del centro pero ninguno a los elementos de los extremos.
+space-evenly: Le da el mismo espaciado a todos elementos a lo largo del navegador.
+
+flex-direction: row
+flex-direction: column
+
+align-items: center
+align-items: start
+align-items: end
+
+align-self: *Solo un elemento
